@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.mainDiv{
+  margin: 0 10rem 0 10rem;
+}
+.titleH1{
+  font-size: 3rem;
+  padding: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+.form{
+  display: block;
+}
+label{
+  font-weight: bold;
+}
+.customInput{
+  width: 100%;
+  margin-top: 0.6rem;
+  margin-bottom: 0.7rem;
+  border: 1px solid rgba(151, 150, 150, 0.904);
+  border-radius: 0.25rem;
+  padding: 0.7rem 0.5rem;
+  box-sizing:border-box;
+  outline: none;
+
+}
+.customInput:focus{
+  border: 1px solid blueviolet;
+}
+#btn-submit{
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid rgba(151, 150, 150, 0.904);
+  font-size: 0.7rem;
+  color: gray;
+  border-radius: 0.25rem;
+}
+
+#btn-submit:hover{
+  border: 1px solid black;
+  cursor: pointer;
+}
+table{
+  width: 100%;
+  text-align: left;
+  margin-top: 2rem;
+}
+th{
+  border-bottom: 1px solid #E1E1E1;
+  padding: 1.25rem 0rem;
+
+}
+td{
+  border-bottom: 1px solid #E1E1E1;
+  padding: 1.25rem 0rem;
+
+}
+#delete-button{
+  cursor: pointer;
+  color: blueviolet;
+  text-decoration: underline;
+}
+.alertMessage-unsuccessful{
+  background-color: red;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+.alertMessage-successful{
+  background-color: green;
+  color: white;
+  padding: 0.5rem 1rem;
+}

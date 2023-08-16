@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="/cs/bookApp.css">
+</head>
+<body>
+    <div class="mainDiv" id="main-div">
+        <h1 class="titleH1">Add Book</h1>
+        <div id="alertDiv"></div>
+        <form action="" class="form">
+            <div class="bookName">
+                <label for="bookTitle">Title</label>
+                <input class="customInput" type="text" id="bookTitle">
+            </div>
+            <div class="bookAuthor">
+                <label for="author">Author</label>
+                <input class="customInput" type="text" id="author">
+            </div>
+            <div class="bookISBN">
+                <label for="ISBN">ISBN#</label>
+                <input class="customInput" type="text" id="isbn">
+            </div>
+            <div class="submit">
+                <button id="btn-submit" type="submit">SUBMIT</button>
+            </div>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+    
+
+
+
+
+    <script src="./bookApp.js"></script>
+</body>
+</html>
